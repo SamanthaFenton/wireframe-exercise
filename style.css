@@ -1,6 +1,26 @@
 * {
   border: 1px solid black;
 }
+header {
+  background-color: darkgray;
+  width: 100%;
+  display: flex;
+  align-items: centre;
+  padding: 1rem;
+}
+section {
+  background-color: bisque;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: centre;
+}
 
-div {
+footer {
+  background-color: darkgray;
+  width: 100%;
+  display: flex;
+  align-items: centre;
+  padding: 1rem;
 }
