@@ -1,20 +1,53 @@
-* {
-  border: 1px solid black;
-}
 header {
   background-color: darkgray;
   width: 100%;
-  display: flex;
-  align-items: centre;
+
   padding: 1rem;
+  margin-bottom: 1rem;
 }
+
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  max-width: 960px;
+}
+
+#one {
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
 section {
   background-color: bisque;
   padding: 1rem;
   width: 90%;
-  margin: auto;
+  margin: 1rem;
   display: flex;
+
+  justify-items: center;
   align-items: centre;
+}
+
+img {
+  background-color: beige;
+  border: 1px solid black;
+}
+
+p {
+  border: 1px solid black;
+}
+
+div {
+  background-color: gold;
+  justify-content: center;
+  margin: 1rem;
+  display: flex;
 }
 
 footer {
@@ -23,4 +56,5 @@ footer {
   display: flex;
   align-items: centre;
   padding: 1rem;
+  margin-top: 1rem;
 }
